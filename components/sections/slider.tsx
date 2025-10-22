@@ -13,22 +13,13 @@ export default function Slider() {
   const [progress, setProgress] = useState(0);
 
   const images = [
-    { src: ASSETS_PATHS.img_Slider4, alt: "img4" },
     { src: ASSETS_PATHS.img_Slider5, alt: "img5" },
     { src: ASSETS_PATHS.img_Slider6, alt: "img6" },
     { src: ASSETS_PATHS.img_Slider7, alt: "img7" },
     { src: ASSETS_PATHS.img_Slider8, alt: "img8" },
-    { src: ASSETS_PATHS.img_Slider9, alt: "img9" },
-    { src: ASSETS_PATHS.img_Slider10, alt: "img10" },
-    { src: ASSETS_PATHS.img_Slider11, alt: "img11" },
-    { src: ASSETS_PATHS.img_Slider12, alt: "img12" },
-    { src: ASSETS_PATHS.img_Slider13, alt: "img13" },
-    { src: ASSETS_PATHS.img_Slider14, alt: "img14" },
-    { src: ASSETS_PATHS.img_Slider15, alt: "img15" },
+    
     { src: ASSETS_PATHS.img_Slider1, alt: "img1" },
-    { src: ASSETS_PATHS.img_Slider2, alt: "img2" },
-    { src: ASSETS_PATHS.img_Slider3, alt: "img3" },
-
+  
   ];
 
   const total = images.length;

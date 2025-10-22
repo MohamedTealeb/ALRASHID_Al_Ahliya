@@ -27,7 +27,7 @@ export default function Footer() {
                         
                         {/* وسائل التواصل الاجتماعي */}
                         <div className="flex gap-3">
-                            <a className="w-10 h-10 rounded-full bg-main/20 flex items-center justify-center text-main hover:bg-main hover:text-white transition-all duration-300 transform hover:scale-110" href="#" aria-label="Facebook">
+                            <a className="w-10 h-10 rounded-full bg-main/20 flex items-center justify-center text-main hover:bg-main hover:text-white transition-all duration-300 transform hover:scale-110" target="_blank" href="https://www.facebook.com/share/19BekqLHdP/?mibextid=wwXIfr" aria-label="Facebook">
                                 <FaFacebookF size={16} />
                             </a>
                             <a className="w-10 h-10 rounded-full bg-main/20 flex items-center justify-center text-main hover:bg-main hover:text-white transition-all duration-300 transform hover:scale-110" href="#" aria-label="Twitter">

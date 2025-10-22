@@ -87,9 +87,9 @@ export default function Footer() {
                                 <div>
                                     <p className="text-gray-600 font-cairo text-sm">
                                         <span className="block text-main font-semibold">{translations.footer?.contact?.phone || "الهاتف"}</span>
-                                        +96551735171                                    </p>
+                                        +96524728127                                    </p>
                                     <p className="text-gray-600 font-cairo text-sm">
-                                    +96555328677                                    </p>
+                                    +96550318283                               </p>
                                 </div>
                             </div>
                         </div>

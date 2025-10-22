@@ -28,7 +28,7 @@
   },
   "video": {
     "title": "Watch Our School",
-    "subtitle": "Discover the exceptional learning environment and modern facilities at ALRASHID Indian School",
+    "subtitle": "Discover the exceptional learning environment and modern facilities at ALRASHID Al-Ahliyah School",
     "features": {
       "highQuality": "High Quality",
       "educationalContent": "Educational Content",
@@ -59,7 +59,7 @@
   },
   "about": {
     "title": "About Us",
-    "subtitle": "ALRASHID Indian School - An Exceptional Educational Journey",
+    "subtitle": "ALRASHID Al-Ahliyah School - An Exceptional Educational Journey",
     "description": "We are a leading educational institution committed to providing exceptional education that combines authenticity with modernity. We aim to develop students' capabilities and enhance their skills in a stimulating and innovative educational environment.",
     "vision": {
       "title": "Our Vision",
@@ -99,7 +99,7 @@
   },
   "login": {
     "title": "Login",
-    "subtitle": "Welcome to ALRASHID Indian School",
+    "subtitle": "Welcome to ALRASHID Al-Ahliyah School",
     "studentId": "Email",
     "parentId": "Password",
     "loginButton": "Login",
@@ -146,7 +146,7 @@
     "language": "Language"
   },
   "footer": {
-    "brand": "ALRASHID Indian School",
+    "brand": "ALRASHID Al-Ahliyah School",
     "tagline": "We provide exceptional education that instills values and academic excellence in students",
     "socialTitle": "Social Media",
     "links": {

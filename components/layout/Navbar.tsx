@@ -76,8 +76,8 @@ export default function Navbar() {
         {/* Logo and School Name */}
         <div className="flex items-center space-x-4">
           <Link href="/" className="flex items-center space-x-3">
-            <Image
-              src={ASSETS_PATHS.logo}
+            <img
+              src={ASSETS_PATHS.LOGOO}
               width={64}
               height={64}
               className="object-contain"

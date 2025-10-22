@@ -51,8 +51,8 @@ export default function About() {
 
     const stats = [
         { number: "2000+", label: translations?.about?.stats?.students || "طالب" },
-        { number: "100+", label: translations?.about?.stats?.teachers || "معلم" },
-        { number: "20+", label: translations?.about?.stats?.years || "سنة خبرة" },
+        { number: "150+", label: translations?.about?.stats?.teachers || "معلم" },
+        { number: "35+", label: translations?.about?.stats?.years || "سنة خبرة" },
     ];
 
     return (

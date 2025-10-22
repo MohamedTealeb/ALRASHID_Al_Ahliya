@@ -1,7 +1,7 @@
 {
   "navbar": {
-    "brand": "Mohammad Othman El Rashid School",
-    "brandEn": "",
+    "brand": "Mohammad Othman Alrashid School",
+    "brandEn": "Primary-Secondary-High School(Boys)",
     "home": "Home",
     "about": "About Us",
     "academics": "Academics",
@@ -44,16 +44,16 @@
       "mainTitle": "Our Academic Sections",
       "mainSubtitle": "We provide comprehensive and advanced education for all age groups while considering special needs",
       "earlyYears": {
-        "title": "Early Years",
-        "description": "KG and Reception"
+        "title": "Primary School",
+        "description": "Grade 5"
       },
       "primarySchool": {
-        "title": "Primary School",
-        "description": "Years 1 to 6"
+        "title": "Middle School",
+        "description": "Grade 6 -  7 -  8 -  9  "
       },
       "secondarySchool": {
         "title": "Secondary School",
-        "description": "Years 7 to 13"
+        "description": "Grade 10 -  11 -  12 "
       }
     }
   },

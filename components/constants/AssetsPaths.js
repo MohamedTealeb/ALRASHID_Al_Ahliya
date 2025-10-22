@@ -1,5 +1,5 @@
 export const ASSETS_PATHS = {
-    img_Background: '/School-main-4K.jpg',
+    img_Background: '/Background1.jpg',
     img_Slider1: '/img2.jpg',
     img_Slider2: '/img3.jpg',
     img_Slider3: '/img4.jpg',

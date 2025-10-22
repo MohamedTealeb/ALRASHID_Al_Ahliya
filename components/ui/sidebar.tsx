@@ -5,7 +5,6 @@ import { Slot } from "@radix-ui/react-slot"
 import { cva, type VariantProps } from "class-variance-authority"
 import { PanelLeftIcon } from "lucide-react"
 
-import { useIsMobile } from "@/hooks/use-mobile"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -66,8 +65,18 @@ function SidebarProvider({
   open?: boolean
   onOpenChange?: (open: boolean) => void
 }) {
-  const isMobile = useIsMobile()
   const [openMobile, setOpenMobile] = React.useState(false)
+  const [isMobile, setIsMobile] = React.useState(false)
+
+  // Keep `isMobile` in sync with the Tailwind `md` breakpoint (< 768px)
+  React.useEffect(() => {
+    if (typeof window === "undefined") return
+    const mediaQuery = window.matchMedia("(max-width: 767px)")
+    const update = () => setIsMobile(mediaQuery.matches)
+    update()
+    mediaQuery.addEventListener?.("change", update)
+    return () => mediaQuery.removeEventListener?.("change", update)
+  }, [])
 
   // This is the internal state of the sidebar.
   // We use openProp and setOpenProp for control from outside the component.

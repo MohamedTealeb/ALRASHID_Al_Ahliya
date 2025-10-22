@@ -15,8 +15,8 @@ export const metadata = {
   description: "ALRASHID al Ahliya SCHOOL",
   icons: {
     icon: [
-      { url: "/logo.jpg",  type: "image/png" },
-      { url: "/logo.jpg",  type: "image/png" },
+      { url: "/LOGOO.jpg",  type: "image/png" },
+      { url: "/IMG1.jpg",  type: "image/png" },
     ],
     
   },

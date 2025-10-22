@@ -64,7 +64,7 @@ export default function About() {
                         {translations?.about?.title || "من نحن"}
                     </h2>
                     <p className="text-xl text-gray-600 font-cairo max-w-4xl mx-auto leading-relaxed">
-                        {translations?.about?.subtitle || "مدرسة الراشد الهندية - رحلة تعليمية متميزة"}
+                        {translations?.about?.subtitle || "مدرسة الراشد الأهلية - رحلة تعليمية متميزة"}
                     </p>
                 </div>
 
@@ -101,8 +101,8 @@ export default function About() {
                     <div className="relative">
                         <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                             <Image 
-                                src={ASSETS_PATHS.about} 
-                                alt="مدرسة الراشد الهندية" 
+                                src={ASSETS_PATHS.img_Slider6} 
+                                alt="مدرسة الراشد الأهلية" 
                                 width={600}
                                 height={400}
                                 className="w-full h-auto object-cover"

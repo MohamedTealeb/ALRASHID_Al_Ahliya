@@ -33,7 +33,15 @@ export default function Hero() {
         <p className="text-lg md:text-2xl mb-10 text-white font-cairo">
           {translations?.Hero.subtitle || "نرحب بكم في رحلتنا التعليمية المتميزة حيث نغرس القيم والتميز الأكاديمي"}
         </p>
-        <button className="bg-main cursor-pointer hover:bg-main text-white px-10 py-4 rounded-full text-lg font-bold shadow-lg transition-transform transform hover:scale-105 font-cairo">
+        <button 
+          onClick={() => {
+            window.scrollTo({
+              top: window.innerHeight,
+              behavior: 'smooth'
+            });
+          }}
+          className="bg-main cursor-pointer hover:bg-main text-white px-10 py-4 rounded-full text-lg font-bold shadow-lg transition-transform transform hover:scale-105 font-cairo"
+        >
           {translations?.Hero.cta || "اكتشف المزيد"}
         </button>
       </div>

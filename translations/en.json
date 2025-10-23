@@ -10,17 +10,46 @@
     "activities": "Activities"
   },
   "Hero": {
-    "title": "Welcome to Our Website",
+    "title": "ALRASHID Al-Ahliyah School",
     "subtitle": "We provide the best services for you.",
-    "cta": "Get Started"
+    "cta": "Start Your Educational Journey",
+    "features": {
+      "excellence": "Academic Excellence",
+      "innovation": "Educational Innovation",
+      "values": "Authentic Values",
+      "future": "Bright Future"
+    }
   },
   "slider": {
+    "badge": "Activities Gallery",
     "title": "Activities",
     "subtitle": "Discover the diverse activities and exceptional educational programs in our school",
     "slide1Alt": "First slide image",
     "slide2Alt": "Second slide image", 
     "slide3Alt": "Third slide image",
     "slideDescription": "Discover more exceptional activities in our school",
+    "activities": [
+      {
+        "title": "Sports Activity",
+        "description": "Various sports activities to develop physical skills"
+      },
+      {
+        "title": "Cultural Activity",
+        "description": "Cultural and creative activities to develop talents"
+      },
+      {
+        "title": "Scientific Activity",
+        "description": "Scientific experiments and research projects for students"
+      },
+      {
+        "title": "Social Activity",
+        "description": "Volunteer activities and community service"
+      },
+      {
+        "title": "Artistic Activity",
+        "description": "Various artistic and creative workshops"
+      }
+    ],
     "controls": {
       "pauseAutoPlay": "Pause Auto Play",
       "startAutoPlay": "Start Auto Play"
@@ -29,35 +58,58 @@
   "video": {
     "title": "Watch Our School",
     "subtitle": "Discover the exceptional learning environment and modern facilities at ALRASHID Al-Ahliyah School",
+    "description": "Explore the world of exceptional education at our school through this informative video",
     "features": {
       "highQuality": "High Quality",
       "educationalContent": "Educational Content",
-      "free": "Free"
+      "free": "Free",
+      "modernFacilities": "Modern Facilities",
+      "expertTeachers": "Expert Teachers",
+      "innovativeMethods": "Innovative Teaching Methods"
+    },
+    "buttons": {
+      "play": "Play Video",
+      "pause": "Pause",
+      "mute": "Mute",
+      "fullscreen": "Fullscreen"
     }
   },
   "academic": {
+    "badge": "Academic Excellence",
     "title": "The Necessary Foundation for Academic Excellence",
-    "subtitle": "Select the best personalized courses for academic excellence and exam readiness",
-    "primaryCta": "Explore Courses",
-    "secondaryCta": "Student's Registration",
+    "subtitle": "We provide the best services for you.",
+    "description": "We offer advanced and diverse educational programs that suit all levels and educational needs",
+
+    "primaryDescription": "Discover courses specifically designed to elevate your academic level.",
+    "secondaryDescription": "Start now and join a community of ambitious achievers.",
+    "features": {
+      "expertTeachers": "Expert Teachers",
+      "modernCurriculum": "Modern Curriculum",
+      "individualAttention": "Individual Attention",
+      "advancedTechnology": "Advanced Technology"
+    },
     "sections": {
       "mainTitle": "Our Academic Sections",
-      "mainSubtitle": "We provide comprehensive and advanced education for all age groups while considering special needs",
+      "mainSubtitle": "We provide comprehensive and advanced education for all age groups",
       "earlyYears": {
         "title": "Primary School",
-        "description": "Grade 5"
+        "description": "Grade 5",
+        "features": ["Strong Foundations", "Fun Learning", "Skill Development"]
       },
       "primarySchool": {
         "title": "Middle School",
-        "description": "Grade 6 -  7 -  8 -  9  "
+        "description": "Grade 6 - 7 - 8 - 9",
+        "features": ["Advanced Curriculum", "Educational Projects", "Critical Thinking"]
       },
       "secondarySchool": {
         "title": "Secondary School",
-        "description": "Grade 10 -  11 -  12 "
+        "description": "Grade 10 - 11 - 12",
+        "features": ["University Preparation", "Advanced Specializations", "Research Projects"]
       }
     }
   },
   "about": {
+    "badge": "Get to Know Us",
     "title": "About Us",
     "subtitle": "ALRASHID Al-Ahliyah School - An Exceptional Educational Journey",
     "description": "We are a leading educational institution committed to providing exceptional education that combines authenticity with modernity. We aim to develop students' capabilities and enhance their skills in a stimulating and innovative educational environment.",
@@ -71,6 +123,7 @@
     },
     "values": {
       "title": "Our Values",
+      "subtitle": "The core values we believe in and strive to achieve",
       "values": [
         {
           "title": "Academic Excellence",
@@ -91,10 +144,16 @@
       ]
     },
     "stats": {
+      "title": "Our Outstanding Statistics",
+      "subtitle": "Numbers that reflect our excellence and success in education",
       "students": "Students",
       "teachers": "Teachers",
       "years": "Years Experience",
       "programs": "Programs"
+    },
+    "imageInfo": {
+      "title": "ALRASHID Al-Ahliyah School",
+      "subtitle": "Exceptional Educational Institution"
     }
   },
   "login": {
@@ -143,7 +202,15 @@
   },
   "common": {
     "loading": "Loading...",
-    "language": "Language"
+    "language": "Language",
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "contactUs": "Contact Us",
+    "viewAll": "View All",
+    "seeMore": "See More",
+    "backToTop": "Back to Top",
+    "scrollToTop": "Scroll to Top"
   },
   "footer": {
     "brand": "ALRASHID Al-Ahliyah School",
@@ -155,12 +222,18 @@
       "courses": "Courses",
       "contact": "Contact",
       "privacy": "Privacy Policy",
-      "terms": "Terms of Service"
+      "terms": "Terms of Service",
+      "admissions": "Admissions",
+      "activities": "Activities",
+      "news": "News",
+      "gallery": "Gallery"
     },
     "contact": {
       "title": "Contact Information",
       "email": "Email",
-      "phone": "Phone"
+      "phone": "Phone",
+      "address": "Address",
+      "location": "Kuwait - Ahmadi Area"
     },
     "workingHours": {
       "title": "Working Hours",
@@ -170,9 +243,118 @@
       "weekendTime": "Closed",
       "note": "Working hours may vary during official holidays"
     },
+    "newsletter": {
+      "title": "Newsletter",
+      "subtitle": "Subscribe to get the latest news and updates",
+      "placeholder": "Enter your email",
+      "subscribe": "Subscribe",
+      "success": "Successfully subscribed!",
+      "error": "An error occurred, please try again"
+    },
     "bottom": {
       "designBy": "Designed with ❤️ for Excellence in Education"
     },
     "copyright": "All rights reserved."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to answer all your inquiries",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred while sending, please try again"
+    },
+    "info": {
+      "title": "Contact Information",
+      "address": "Riyadh, Saudi Arabia",
+      "phone": "+966 XX XXX XXXX",
+      "email": "info@alrashid.edu.sa",
+      "hours": "Sunday - Thursday: 7:00 AM - 2:00 PM"
+    }
+  },
+  "news": {
+    "title": "News & Events",
+    "subtitle": "Follow the latest school news and events",
+    "readMore": "Read More",
+    "publishedOn": "Published on",
+    "categories": {
+      "all": "All",
+      "academic": "Academic",
+      "activities": "Activities",
+      "events": "Events",
+      "announcements": "Announcements"
+    }
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Discover the most beautiful moments in our school",
+    "categories": {
+      "all": "All",
+      "events": "Events",
+      "activities": "Activities",
+      "graduation": "Graduation",
+      "sports": "Sports"
+    }
+  },
+  "admissions": {
+    "title": "School Admissions",
+    "subtitle": "Start your educational journey with us",
+    "process": {
+      "title": "Admission Process",
+      "step1": "Submit Application",
+      "step2": "Review",
+      "step3": "Interview",
+      "step4": "Acceptance"
+    },
+    "requirements": {
+      "title": "Admission Requirements",
+      "documents": "Required Documents",
+      "age": "Appropriate Age",
+      "grades": "Required Grades"
+    },
+    "form": {
+      "title": "Admission Form",
+      "studentName": "Student Name",
+      "parentName": "Parent Name",
+      "grade": "Requested Grade",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "submit": "Submit Application"
+    }
+  },
+  "error": {
+    "404": {
+      "title": "Page Not Found",
+      "subtitle": "Sorry, the page you are looking for does not exist",
+      "backHome": "Back to Home"
+    },
+    "500": {
+      "title": "Server Error",
+      "subtitle": "An unexpected error occurred, please try again later",
+      "tryAgain": "Try Again"
+    },
+    "network": {
+      "title": "Connection Error",
+      "subtitle": "Check your internet connection",
+      "retry": "Retry"
+    }
+  },
+  "loading": {
+    "page": "Loading page...",
+    "content": "Loading content...",
+    "data": "Loading data...",
+    "pleaseWait": "Please wait..."
+  },
+  "search": {
+    "placeholder": "Search the website...",
+    "results": "Search Results",
+    "noResults": "No results found",
+    "suggestions": "Search Suggestions"
   }
 }

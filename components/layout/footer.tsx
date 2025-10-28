@@ -54,22 +54,19 @@ export default function Footer() {
                             <div className="absolute -bottom-2 left-0 w-12 h-1 bg-gradient-to-r from-main to-blue-500 rounded-full"></div>
                         </h4>
                         <ul className="space-y-4">
-                            <li><a className="group flex items-center text-gray-600 hover:text-main font-cairo transition-all duration-300 hover:translate-x-2" href="#">
+                            <li><a className="group flex items-center text-gray-600 hover:text-main font-cairo transition-all duration-300 hover:translate-x-2" href="#about">
                                 <div className="w-2 h-2 bg-main rounded-full mr-3 group-hover:scale-125 transition-transform"></div>
                                 {translations.footer?.links?.about || "من نحن"}
                             </a></li>
                            
-                            <li><a className="group flex items-center text-gray-600 hover:text-main font-cairo transition-all duration-300 hover:translate-x-2" href="#">
+                          
+                            <li><a className="group flex items-center text-gray-600 hover:text-main font-cairo transition-all duration-300 hover:translate-x-2" href="#academic">
                                 <div className="w-2 h-2 bg-main rounded-full mr-3 group-hover:scale-125 transition-transform"></div>
-                                {translations.footer?.links?.contact || "تواصل معنا"}
+                                {translations.footer?.links?.academics || "  الأكاديمية"}
                             </a></li>
-                            <li><a className="group flex items-center text-gray-600 hover:text-main font-cairo transition-all duration-300 hover:translate-x-2" href="#">
+                            <li><a className="group flex items-center text-gray-600 hover:text-main font-cairo transition-all duration-300 hover:translate-x-2" href="#slider">
                                 <div className="w-2 h-2 bg-main rounded-full mr-3 group-hover:scale-125 transition-transform"></div>
-                                {translations.footer?.links?.privacy || "سياسة الخصوصية"}
-                            </a></li>
-                            <li><a className="group flex items-center text-gray-600 hover:text-main font-cairo transition-all duration-300 hover:translate-x-2" href="#">
-                                <div className="w-2 h-2 bg-main rounded-full mr-3 group-hover:scale-125 transition-transform"></div>
-                                {translations.footer?.links?.terms || "شروط الخدمة"}
+                                {translations.footer?.links?.activities || "الأنشطة"}
                             </a></li>
                         </ul>
                     </div>

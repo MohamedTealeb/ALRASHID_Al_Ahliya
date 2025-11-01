@@ -45,6 +45,27 @@ export default function Footer() {
                                 <FaWhatsapp size={18} className="group-hover:scale-110 transition-transform" />
                             </a>
                         </div>
+                        
+                        {/* منصة Teams */}
+                        <div className="mt-6">
+                            <h4 className="text-base font-bold font-cairo mb-3 text-[#B33791]">
+                                {translations.footer?.teams?.title || "دخول منصة التيمز اضغط هنا"}
+                            </h4>
+                            <a 
+                                className="w-40 h-20 rounded-full bg-blue-500/20 flex items-center justify-center text-white hover:bg-blue-500 transition-all duration-300 transform hover:scale-110 shadow-lg" 
+                                target="_blank" 
+                                href="https://teams.microsoft.com" 
+                                aria-label="Microsoft Teams"
+                            >
+                                <Image 
+                                    src='/microsoft-teams-svgrepo-com.svg' 
+                                    alt={translations.footer?.teams?.alt || "Microsoft Teams"}
+                                    width={70}
+                                    height={32}
+                                    className="object-contain"
+                                />
+                            </a>
+                        </div>
                     </div>
 
                     {/* الروابط السريعة */}

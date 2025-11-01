@@ -147,8 +147,22 @@ export default function Navbar() {
           )}
         </nav>
 
-        {/* Desktop Buttons (Language Switcher) */}
+        {/* Desktop Buttons (Teams & Language Switcher) */}
         <div className="hidden md:flex items-center gap-3">
+          <a 
+            href="https://teams.microsoft.com" 
+            target="_blank"
+            className="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center hover:bg-blue-500 transition-all duration-300 transform hover:scale-110 shadow-lg"
+            aria-label="Microsoft Teams"
+          >
+            <Image 
+              src='/microsoft-teams-svgrepo-com.svg' 
+              alt={translations?.footer?.teams?.alt || "Microsoft Teams"}
+              width={20}
+              height={20}
+              className="object-contain"
+            />
+          </a>
           <Button
             variant="outline"
             onClick={toggleLanguage}
@@ -231,17 +245,37 @@ export default function Navbar() {
                   </>
                 )}
 
-                {/* زر تغيير اللغة داخل الموبايل */}
-                <Button
-                  variant="outline"
-                  onClick={() => {
-                    toggleLanguage();
-                    setOpen(false);
-                  }}
-                  className="border-gray-700 text-gray-700 hover:bg-main/10 hover:border-main hover:text-main font-sans mt-4"
-                >
-                  {language === "en" ? "AR" : "EN"}
-                </Button>
+                {/* زر Teams وزر تغيير اللغة داخل الموبايل */}
+                <div className="mt-4 space-y-2">
+                  <a 
+                    href="https://teams.microsoft.com" 
+                    target="_blank"
+                    onClick={() => setOpen(false)}
+                    className="w-full h-14 rounded-full bg-blue-500/20 flex items-center justify-center hover:bg-blue-500 transition-all duration-300 shadow-lg border border-blue-200"
+                    aria-label="Microsoft Teams"
+                  >
+                    <Image 
+                      src='/microsoft-teams-svgrepo-com.svg' 
+                      alt={translations?.footer?.teams?.alt || "Microsoft Teams"}
+                      width={40}
+                      height={40}
+                      className="object-contain mr-2"
+                    />
+                    <span className="text-sm font-semibold text-gray-700">
+                      {translations?.footer?.teams?.shortTitle || "Teams"}
+                    </span>
+                  </a>
+                  <Button
+                    variant="outline"
+                    onClick={() => {
+                      toggleLanguage();
+                      setOpen(false);
+                    }}
+                    className="w-full border-gray-700 text-gray-700 hover:bg-main/10 hover:border-main hover:text-main font-sans"
+                  >
+                    {language === "en" ? "AR" : "EN"}
+                  </Button>
+                </div>
               </nav>
             </SheetContent>
           </Sheet>

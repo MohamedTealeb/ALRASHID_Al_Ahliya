@@ -243,6 +243,11 @@
       "weekendTime": "Closed",
       "note": "Working hours may vary during official holidays"
     },
+    "teams": {
+      "title": "Click here to access Microsoft Teams",
+      "shortTitle": "Teams",
+      "alt": "Microsoft Teams"
+    },
     "newsletter": {
       "title": "Newsletter",
       "subtitle": "Subscribe to get the latest news and updates",

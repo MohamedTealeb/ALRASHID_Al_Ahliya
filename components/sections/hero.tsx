@@ -10,13 +10,13 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white">
       {/* صورة الخلفية */}
-      <Image 
+      {/* <Image 
         src={ASSETS_PATHS.img_Background} 
         alt="Background" 
         fill
         className="object-cover"
         priority
-      />
+      /> */}
 
       {/* طبقة تظليل خفيفة بلون أساسي شفاف */}
       <div className="absolute inset-0 bg-main/30"></div>
